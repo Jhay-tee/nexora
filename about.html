@@ -6,72 +6,99 @@
   <title>About Me - Nexora</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <!-- Optional: modern font (Inter is clean & professional) -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="script.js" defer></script>
 </head>
 <body>
+
   <header>
-  <div class="nav-container">
-    <a href="index.html" class="logo">Nexora</a>
+    <div class="nav-container">
+      <a href="index.html" class="logo">Nexora</a>
 
-    <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-    <nav class="nav-menu">
-      <a href="index.html">Home</a>           <!-- change .active on each page -->
-      <a href="about.html" class="active">About</a>
-      <a href="services.html">Services</a>
-      <a href="skills.html">Skills</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </div>
-</header>
+      <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="services.html">Services</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  <section class="hero">
-    <div class="container hero-container">
-      <div class="hero-content">
-        <h1>About Me</h1>
-        <p class="intro">
-          I’m <strong>Akpan</strong>, founder of <strong>Nexora</strong>.<br />
-          We craft world-class digital experiences through thoughtful design, robust software, and relentless innovation.
-        </p>
-        <p class="tagline">Turning ideas into pixel-perfect, high-performing realities.</p>
+  <main>
+
+    <!-- Hero / Profile section – image on top -->
+    <section class="hero about-hero">
+      <div class="container">
+
+
+        <div style="margin-top: 26px; margin-bottom: 3rem;">
+          <h1 style="font-size: 5rem;">About Me</h1>
+<p class="intro" style="text-align: center; max-width: 620px; margin: 0 auto 1rem auto;">
+  I’m <strong>Jonathan</strong>, founder of <strong>Nexora</strong>.
+</p>
+
+<p class="tagline" style="text-align: center; max-width: 620px; margin: 0 auto;">
+  We craft world-class digital experiences through thoughtful design, robust software, and relentless innovation.
+</p>
+        </div>
+            <div class="hero-image">
+          <img src="brandpic.png" alt="Akpan - Founder of Nexora" style="border-radius: 20%;" />
+        </div>
       </div>
+    </section>
 
-      <div class="hero-image">
-        <img src="your-photo.jpg" alt="Akpan - Founder of Nexora" loading="lazy" />
+    <!-- Details section -->
+    <section class="about-details container">
+      <div class="about-grid">
+        <div class="about-card">
+          <h2>My Journey</h2>
+          <p>
+            With deep roots in technology and a natural eye for creativity, I founded Nexora to bridge the gap between ambitious ideas and exceptional digital products.  
+            Over the years, we’ve helped brands, startups, and individuals stand out with clean interfaces, scalable architecture, and results-driven solutions.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <h2>What Drives Me</h2>
+          <p>
+            Innovation that solves real problems. Precision in every line of code and pixel.  
+            Measurable impact for the people and businesses we serve.  
+            I’m obsessed with building things that look beautiful, work flawlessly, and age gracefully.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <h2>My Values</h2>
+          <ul class="values-list">
+            <li><strong>Clarity</strong> — Simple, intuitive experiences over complexity</li>
+            <li><strong>Quality</strong> — No shortcuts; we ship what we’re proud of</li>
+            <li><strong>Partnership</strong> — Your success is our success</li>
+            <li><strong>Curiosity</strong> — Always learning, always improving</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Nexora. Crafted with focus & intention.</p>
+      <div class="social-icons">
+        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="#" aria-label="Twitter/X"><i class="fab fa-twitter"></i></a>
       </div>
     </div>
-  </section>
+  </footer>
 
-  <section class="about-details container">
-    <div class="about-grid">
-      <div class="about-card">
-        <h2>My Journey</h2>
-        <p>
-          With deep roots in technology and a natural eye for creativity, I founded Nexora to bridge the gap between ambitious ideas and exceptional digital products.  
-          Over the years, we’ve helped brands, startups, and individuals stand out with clean interfaces, scalable architecture, and results-driven solutions.
-        </p>
-      </div>
-
-      <div class="about-card">
-        <h2>What Drives Me</h2>
-        <p>
-          Innovation that solves real problems. Precision in every line of code and pixel.  
-          Measurable impact for the people and businesses we serve.  
-          I’m obsessed with building things that look beautiful, work flawlessly, and age gracefully.
-        </p>
-      </div>
-
-      <div class="about-card">
-        <h2>My Values</h2>
-        <ul class="values-list">
-          <li><strong>Clarity</strong> — Simple, intuitive experiences over complexity</li>
-          <li><strong>Quality</strong> — No shortcuts; we ship what we’re proud of</li>
-          <li><strong>Partnership</strong> — Your success is our success</li>
-          <li><strong>Curiosity</strong> — Always learning, always improving</li
+</body>
+</html>
