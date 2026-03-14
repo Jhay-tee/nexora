@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Services - Nexora</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Consistent fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+  <div class="nav-container">
+    <a href="index.html" class="logo">Nexora</a>
+
+    <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+  <section class="services">
+    <div class="container">
+      <div class="services-header">
+        <h1>Our Services</h1>
+        <p class="lead">
+          At Nexora, we deliver tailored digital solutions that blend creativity, cutting-edge technology, and meticulous precision — helping your brand stand out and scale effortlessly.
+        </p>
+      </div>
+
+      <div class="service-grid">
+        <div class="service-card">
+          <div class="icon-wrapper">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3>Web Design & Development</h3>
+          <p>Custom, high-performance websites with responsive layouts, modern UI/UX, clean code, and seamless functionality — built to convert visitors into loyal users.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="icon-wrapper">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3>Mobile App Development</h3>
+          <p>Cross-platform mobile apps (iOS & Android) focused on intuitive experiences, fast performance, and scalable architecture — from MVP to full launch.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="icon-wrapper">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h3>Branding & Graphic Design</h3>
+          <p>Complete visual identities — logos, color systems, typography, and assets — that capture your brand’s personality and create lasting market recognition.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="icon-wrapper">
+            <i class="fas fa-search"></i>
+          </div>
+          <h3>SEO & Performance Optimization</h3>
+          <p>Data-driven SEO strategies, on-page optimization, technical audits, and speed enhancements to boost visibility, rankings, and organic traffic.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="icon-wrapper">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <h3>Cloud Solutions & Integrations</h3>
+          <p>Secure, scalable cloud infrastructure (AWS, Vercel, Supabase, etc.), API integrations, and DevOps setups to power reliable, future-proof digital products.</p>
+        </div>
+      </div>
+
+      <!-- Optional CTA at bottom to drive action -->
+      <div class="services-cta">
+        <h2>Ready to Elevate Your Digital Presence?</h2>
+        <a href="contact.html" class="cta-button primary">Start a Project →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Nexora. Crafted with focus & intention.</p>
+      <div class="social-icons">
+        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="#" aria-label="Twitter/X"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

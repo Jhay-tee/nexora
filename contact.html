@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Me - Nexora</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Same modern fonts as other pages -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+  <div class="nav-container">
+    <a href="index.html" class="logo">Nexora</a>
+
+    <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </div>
+</header>
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-header">
+        <h1>Get in Touch</h1>
+        <p class="lead">
+          Let’s build something extraordinary together. Drop your message below — I’ll respond within 24–48 hours.
+        </p>
+      </div>
+
+      <form id="contactForm" class="contact-form">
+        <div class="form-group">
+          <label for="name">Full Name <span class="required">*</span></label>
+          <input type="text" id="name" name="name" placeholder="Your name" required aria-required="true" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address <span class="required">*</span></label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required aria-required="true" />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="+234 000 000 0000" />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Your Message <span class="required">*</span></label>
+          <textarea id="message" name="message" rows="6" placeholder="Tell me about your project or idea..." required aria-required="true"></textarea>
+        </div>
+
+        <button type="submit" id="submitBtn">Send Message</button>
+      </form>
+
+      <p id="status" class="form-status" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Nexora. Crafted with focus & intention.</p>
+      <div class="social-icons">
+        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="#" aria-label="Twitter/X"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
