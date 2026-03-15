@@ -203,6 +203,15 @@ section, .container, .hero-container, .highlight-grid, .about-grid {
   align-items: center;
 }
 
+.values-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;         /* centers the value items */
+  gap: 2rem;
+  margin-top: 3rem;
+  list-style: none;
+}
+
 .hero-image img {
   width: 100%;
   max-width: 320px;                /* keeps it from becoming too big */
